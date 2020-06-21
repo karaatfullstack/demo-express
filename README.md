@@ -17,10 +17,10 @@ Setup directory and files inside the cohort's repository, and install Express:
 
 In case running `nodemon` doesn't work, add this script (line 3) to the `package.json` file:
 ```json
-1. ...
-2.  "scripts": {
-3.   "start": "node_modules/.bin/nodemon server.js"
-4.  }, ...
+...
+  "scripts": {
+    "start": "node_modules/.bin/nodemon server.js"
+  }, ...
 ```
 **Note:** We use `nodemon` so that we don't have to keep restarting our server after every change.
 
