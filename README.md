@@ -104,7 +104,7 @@ app.get('/data', (req, res, next) => {
   res.send({
     firstName: 'Noelle',
     lastName: 'Laureano',
-    this: 'My Legacy'
+    luckyNumber: 4
   })
 })
 ```
