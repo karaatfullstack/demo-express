@@ -61,7 +61,7 @@ const users = {
 Let's incorporate a new `app` function into our application:
 ```js
 app.use('*', (req, res, next) => {
-  console.log(req.method, req.url)
+  console.log(req.method, req.baseUrl)
 
   // To close the request-response cycle, the server *must* send a response else the client just hangs waiting for one until it errors out
   // If we want to send the client a response in a different handler, we invoke `next`, our third parameter so that the request can flow through to the next middleware function
