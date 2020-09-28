@@ -128,4 +128,4 @@ app.get('/users', (req, res, next) => {
   2. Show the response body:
       - Toggle from "Pretty" to "Raw" to "Preview"
   3. Show the headers:
-      - `Content-Type` indicates the resource media's type. Per the Express documentation, when he parameter is an Array or Object, Express responds with the JSON representation.
+      - `Content-Type` indicates the resource media's type. Per the Express documentation, when the parameter is an Array or Object, Express responds with the JSON representation.
