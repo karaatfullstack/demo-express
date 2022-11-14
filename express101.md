@@ -9,20 +9,21 @@ Setup directory and files inside the cohort's repository, and install Express:
 - `mkdir demo-server`
 - `cd demo-server`
   - Demonstrate to students that there's nothing in the directory: `ls`.
-- `npm init`
+- `npm init -y`
+- // the flag '-y' stands for "yes" - this will say yes to all defaults so don't need to choose
   - Demonstrate to students that a `package.json` gets created: `ls`.
 - `npm install express`
   - Demonstrate to students that a `package-lock.json` file and `node_modules` directory were created: `ls`.
 - `touch server.js`
 
-In case running `nodemon` doesn't work, add this script (line 3) to the `package.json` file:
+Type `nodemon server.js` so that we don't have to keep restarting our server after every change.
+- In case running `nodemon` doesn't work, add this script (line 3) to the `package.json` file:
 ```json
 ...
   "scripts": {
     "start": "node_modules/.bin/nodemon server.js"
   }, ...
 ```
-**Note:** We use `nodemon` so that we don't have to keep restarting our server after every change.
 
 ### **Step 2** - Creating server using Express
 
