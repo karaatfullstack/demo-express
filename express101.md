@@ -97,6 +97,7 @@ Update the response to include more HTML:
 ### **Step 4** - Create another endpoint (`GET /data`)
 
 Using Postman, demonstrate what our endpoints will typically send _eventually_ by sending a request Porter & Sail's endpoint, `GET porterandsail.com/api/v2/cities`.
+  - If that doesn't work, try pokemon: https://pokeapi.co/api/v2/pokemon
   - Show that the `Content-Type` is set to `application/json`.
 
 Now let's make another route that sends back some data about our users:
